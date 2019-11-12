@@ -1,0 +1,90 @@
+/**HEADER**/
+header
+{
+     width: 70rem;
+     margin-left: auto;
+     margin-right: auto;
+     padding: auto;
+}
+.header
+{
+    display: flex;
+    background-color: #313131;
+    color: white;
+    justify-content: space-between;
+    margin: 1rem 0 0 0;
+}
+.imgfoto
+{
+    width:220px;
+    height:230px;
+    border-radius:150px;
+    display: block;
+    margin: 1rem auto 1rem 3rem;
+}
+.nombreheader
+{
+    margin: 2.5rem 0 0 3rem;
+    padding: auto;
+    width: 40rem;
+}
+.superior
+{
+    margin: auto 0 -1rem 0 ;
+}
+.resume
+{
+    text-align: right;
+    margin: 2rem 1rem 0 0;
+    width: 15rem;
+}
+
+/**SECCION COLUMNA IZQUIERDA**/
+.educacion
+{
+    display: flex;
+    flex-direction: column;
+     flex-wrap: wrap;
+    width: 45rem;
+    margin: 0 0 0 4rem;
+}
+
+h2
+{
+    background-color: #313131;
+    color: white;
+    text-align: center;
+    width: 23rem;
+    padding: 0.3rem 0 0.3rem 0;
+}
+
+/**COLUMNA DERECHA**/
+.acercademi
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 19rem;
+    margin: 0 0 0 10rem;
+    text-align: justify;
+}
+.barra
+{
+    display: block;
+    margin: -1.1rem 0 0 11rem;
+}
+.habilidades
+{
+    margin: -0.5rem 0 0 0;
+}
+.intereses
+{
+    margin: 0.8rem 0 0 0;
+}
+/**LAS DOS COLUMNAS EN FILA**/
+section
+{
+    display: flex;
+    width: 65rem;
+    margin: 0 0 0 5rem;
+}
