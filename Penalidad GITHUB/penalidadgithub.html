@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manual GITHUB</title>
+</head>
+<body>
+<center>
+    <h1>PORTADA</h1>
+    <img src="./img/sena logo.png" alt="">
+    <P>INSTRUCIONES DE MANUAL GIT</P>
+    <P>ANÁLISIS Y DESARROLLO DE SISTEMAS DE INFORMACIÓN</P>
+    <P>INSTRUCTOR:</P>
+    <p> DANIEL RAMIREZ RONCALLO</P>
+    <P>APRENDIZ:</P>
+    <P> ALAIN BUSTAMANTE</P>
+    <P></P>
+    <input type="date">
+    <nav>
+        <a href="#comandosgit">COMANDOS GIT</a>
+        |
+        <a href="#comandosterminal"> COMANDOS TERMINAL</a>
+        |
+        <a href="#videoexplicativo"> VIDEO EXPLICATIVO</a>
+        |
+        <a href="#instalargit"> INSTALAR GIT</a>
+        |
+        <a href="#contenido"> CONTENIDO</a>
+        |
+        <a href="#introducción">INTRODUCCIÓN</a>
+        |
+        <a href="#historia">HISTORIA</a>
+    </nav>
+</center>
+<section id="contenido">
+    <h2>CONTENIDO</h2>
+    <p>INTRODUCCIÓN</p>
+    <p>HISTORIA</p>
+    <p>COMANDO GIT</p>
+    <p>COMANDO TERMINAL</p>
+    <p>VIDEO EXPLICATIVO</p>
+    <P>INSTALAR GIT</P>
+</section>
+
+<section id="introducción">
+    <h2>INTRODUCCIÓN</h2>
+    <P>¿Qué es GitHub? </P>
+          <p>  GitHub es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git.</p>
+             <img src="./img/img13.jpg" alt="">
+           <p> Note
+               <br>
+           El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago.</p>
+           <p>¿Para que sirve?
+               <br>
+            GitHub aloja tu repositorio de código y te brinda herramientas muy útiles para el trabajo en equipo, dentro de un proyecto.</p> 
+             <img src="./img/img14.jpg" alt="">
+           <p> Además de eso, puedes contribuir a mejorar el software de los demás. Para poder alcanzar esta meta, GitHub provee de funcionalidades para hacer un fork y solicitar pulls.</p>
+             <img src="./img/img15.jpg" alt="">
+           <p> Realizar un fork es simplemente clonar un repositorio ajeno (genera una copia en tu cuenta), para eliminar algún bug o modificar cosas de él. Una vez realizadas tus modificaciones puedes enviar un pull al dueño del proyecto. Éste podrá analizar los cambios que has realizado fácilmente, y si considera interesante tu contribución, adjuntarlo con el repositorio original.</p>
+          <p> ¿Qué herramientas proporciona?
+              <br>
+            En la actualidad, GitHub es mucho más que un servicio de alojamiento de código. Además de éste, se ofrecen varias herramientas útiles para el trabajo en equipo. Entre ellas, caben destacar:</p>
+            <img src="./img/img16.jpg" alt="">
+           <p> •	Una wiki para el mantenimiento de las distintas versiones de las páginas.
+               <br>
+            •	Un sistema de seguimiento de problemas que permiten a los miembros de tu equipo detallar un problema con tu software o una sugerencia que deseen hacer.
+           <br>
+            •	Una herramienta de revisión de código, donde se pueden añadir anotaciones en cualquier punto de un fichero y debatir sobre determinados cambios realizados en un commit específico.
+           <br>
+            •	Un visor de ramas donde se pueden comparar los progresos realizados en las distintas ramas de nuestro repositorio.</p>
+           <p>¿Qué uso le daremos?
+               <br>
+            En nuestra especialidad “Programación”, fuimos aprendiendo cosas y creando programas de código abierto, fomentando el software libre; es por eso que presentamos esta gran herramienta enfocada al crecimiento de proyectos comunitarios y libres.</p> 
+             <img src="./img/img17.jpg" alt="">
+          <p>  En esta página podremos crear una cuenta gratuita y comenzar a subir repositorios de código (o crearlos desde 0), para que con la ayuda de todos ese proyecto mejore; así como también fortalecer los proyectos de los demás para crecer como grupo.</p>
+            
+</section>
+
+<section id="historia">
+    <h2>HISTORIA</h2>
+    <P>Git</P>
+          <p>  Una breve historia de Git</p>
+        <p>    Como muchas de las grandes cosas en esta vida, Git comenzó con un poco de destrucción creativa y encendida polémica. El núcleo de Linux es un proyecto de software de código abierto con un alcance bastante grande. Durante la mayor parte del mantenimiento del núcleo de Linux (1991-2002), los cambios en el software se pasaron en forma de parches y archivos. En 2002, el proyecto del núcleo de Linux empezó a usar un DVCS propietario llamado BitKeeper.</p>
+        <p>   En 2005, la relación entre la comunidad que desarrollaba el núcleo de Linux y la compañía que desarrollaba BitKeeper se vino abajo, y la herramienta dejó de ser ofrecida gratuitamente. Esto impulsó a la comunidad de desarrollo de Linux (y en particular a Linus Torvalds, el creador de Linux) a desarrollar su propia herramienta basada en algunas de las lecciones que aprendieron durante el uso de BitKeeper. Algunos de los objetivos del nuevo sistema fueron los siguientes: </p>
+          <p>  •	Velocidad</p>
+          <p> •	Diseño sencillo</p> 
+          <p>  •	Fuerte apoyo al desarrollo no lineal (miles de ramas paralelas)</p>
+          <p> •	Completamente distribuido</p> 
+           <p> •	Capaz de manejar grandes proyectos (como el núcleo de Linux) de manera eficiente (velocidad y tamaño de los datos)</p>
+           <p>  Desde su nacimiento en 2005, Git ha evolucionado y madurado para ser fácil de usar y aún conservar estas cualidades iniciales. Es tremendamente rápido, muy eficiente con grandes proyectos, y tiene un increíble sistema de ramificación (branching) para desarrollo no lineal (véase el Capítulo 3). </p>
+    </section>
+   <section id="comandosgit">
+        <h2>COMANDO GIT</h2>
+        <p>Configuración Básica
+                Configurar Nombre que salen en los commits
+                    git config --global user.name "dasdo"
+                <br>
+                Configurar Email
+                    git config --global user.email dasdo1@gmail.com
+                    <br>
+                Marco de colores para los comando
+                    git config --global color.ui true
+                    <br>
+                Iniciando repositorio
+                <br>
+                Iniciamos GIT en la carpeta donde esta el proyecto
+                    git init
+                    <br>
+                Clonamos el repositorio de github o bitbucket
+                    git clone <url>
+                        <br>
+                Añadimos todos los archivos para el commit
+                    git add .
+                    <br>
+                Hacemos el primer commit
+                    git commit -m "Texto que identifique por que se hizo el commit"
+                    <br>
+                subimos al repositorio
+                    git push origin master
+                    <br>
+               <h4> GIT CLONE </h4>
+                Clonamos el repositorio de github o bitbucket
+                    git clone <url>
+                        <br>
+                Clonamos el repositorio de github o bitbucket ?????
+                    git clone <url> git-demo
+               <h4> GIT ADD </h4>
+                Añadimos todos los archivos para el commit
+                    git add .
+                    <br>
+                Añadimos el archivo para el commit
+                    git add <archivo>
+                        <br>
+                Añadimos todos los archivos para el commit omitiendo los nuevos
+                    git add --all 
+                    <br>
+                Añadimos todos los archivos con la extensión especificada
+                    git add *.txt
+                    <br>
+                Añadimos todos los archivos dentro de un directorio y de una extensión especifica
+                    git add docs/*.txt
+                    <br>
+                Añadimos todos los archivos dentro de un directorios
+                    git add docs/
+                <h4>GIT COMMIT</h4>
+                Cargar en el HEAD los cambios realizados
+                    git commit -m "Texto que identifique por que se hizo el commit"
+                    <br>
+                Agregar y Cargar en el HEAD los cambios realizados
+                    git commit -a -m "Texto que identifique por que se hizo el commit"
+                    <br>
+                De haber conflictos los muestra
+                    git commit -a 
+                    <br>
+                Agregar al ultimo commit, este no se muestra como un nuevo commit en los logs. Se puede especificar un nuevo mensaje
+                    git commit --amend -m "Texto que identifique por que se hizo el commit"
+                <h4>GIT PUSH</h4>
+                Subimos al repositorio
+                    git push <origien> <branch>
+                        <br>
+                Subimos un tag
+                    git push --tags
+               <h4>GIT LOG</h4> 
+                Muestra los logs de los commits
+                    git log
+                    <br>
+                Muestras los cambios en los commits
+                    git log --oneline --stat
+                    <br>
+                Muestra graficos de los commits
+                    git log --oneline --graph
+                <h4>GIT DIFF</h4>
+                Muestra los cambios realizados a un archivo
+                    git diff
+                    git diff --staged
+                <h4>GIT HEAD</h4>
+                Saca un archivo del commit
+                    git reset HEAD <archivo>
+                        <br>
+                Devuelve el ultimo commit que se hizo y pone los cambios en staging
+                    git reset --soft HEAD^
+                    <br>
+                Devuelve el ultimo commit y todos los cambios
+                    git reset --hard HEAD^
+                    <br>
+                Devuelve los 2 ultimo commit y todos los cambios
+                    git reset --hard HEAD^^
+                    <br>
+                Rollback merge/commit
+                    git log
+                    git reset --hard <commit_sha>
+               <h4> GIT REMOTE</h4>
+                Agregar repositorio remoto
+                    git remote add origin <url>
+                        <br>
+                Cambiar de remote
+                    git remote set-url origin <url>
+                        <br>
+                Remover repositorio
+                    git remote rm <name/origin>
+                    <br>
+                Muestra lista repositorios
+                    git remote -v
+                    <br>
+                Muestra los branches remotos
+                    git remote show origin
+                    <br>
+                Limpiar todos los branches eliminados
+                    git remote prune origin 
+               <h4> GIT BRANCH</h4>
+                Crea un branch
+                    git branch <nameBranch>
+                        <br>
+                Lista los branches
+                    git branch
+                    <br>
+                Comando -d elimina el branch y lo une al master
+                    git branch -d <nameBranch>
+                        <br>
+                Elimina sin preguntar
+                    git branch -D <nameBranch>
+                <h4>GIT TAG</h4>
+                Muestra una lista de todos los tags
+                    git tag
+                    <br>
+                Crea un nuevo tags
+                    git tag -a <verison> - m "esta es la versión x"
+                <h4>GIT REBASE</h4>
+                Los rebase se usan cuando trabajamos con branches esto hace que los branches se pongan al día con el master sin afectar al mismo
+                <br>
+                Une el branch actual con el mastar, esto no se puede ver como un merge
+                    git rebase
+                    <br>
+                Cuando se produce un conflicto no das las siguientes opciones:
+                cuando resolvemos los conflictos --continue continua la secuencia del rebase donde se pauso
+                    git rebase --continue 
+                    <br>
+                Omite el conflicto y sigue su camino
+                    git rebase --skip
+                    <br>
+                Devuelve todo al principio del rebase
+                    git reabse --abort
+                    <br>
+                Para hacer un rebase a un branch en especifico
+                    git rebase <nameBranch>
+                <h4>OTROS COMANDOS</h4>
+                Lista un estado actual del repositorio con lista de archivos modificados o agregados
+                    git status
+                    <br>
+                Quita del HEAD un archivo y le pone el estado de no trabajado
+                    git checkout -- <file>
+                        <br>
+                Crea un branch en base a uno online
+                    git checkout -b newlocalbranchname origin/branch-name
+                Busca los cambios nuevos y actualiza el repositorio
+                    git pull origin <nameBranch>
+                        <br>
+                Cambiar de branch
+                    git checkout <nameBranch/tagname>
+                    <br>
+                Une el branch actual con el especificado
+                    git merge <nameBranch>
+                        <br>
+                Verifica cambios en el repositorio online con el local
+                    git fetch
+                Borrar un archivo del repositorio
+                    git rm <archivo> 
+                        <br>
+                Fork
+                Descargar remote de un fork
+                    git remote add upstream <url>
+                        <br>
+                Merge con master de un fork
+                    git fetch upstream
+                    git merge upstream/master
+    </section>
+
+    <section id="comandosterminal">
+        <h2>COMANDOS TERMINAL</h2>
+        <p>Línea de comandos o terminal es una interfaz de texto en la que pueden escribirse reglas o comandos que el ordenador debe llevar a cabo. Muchas de las tareas que realizamos cotidianamente son realmente más eficaces si las llevamos a cabo con el terminal, especialmente en relación a los derechos de los archivos.
+                Desde el terminar podemos realizar diferentes tareas, como listar nuestros documentos, navegar a través de nuestros ficheros, crear nuevos archivos y carpetas, ejecutar programas, escribir scripts de complejidad variable, etc.
+                En el MAC, el terminal se sitúa en Applicaciones > Utilities > Terminal.
+                <br>
+                (N.B. Si no os gusta el color negro, podéis personalizarlo a vuestro gusto).
+                El símbolo $ (shell prompt) indica que el terminal está listo para recibir órdenes y que ya puedes escribir en la interfaz.
+                ###Sistema de ficheros (filesystem).
+                <br>
+                Antes de nada, es preciso que conozcas el funcionamiento del sistema de ficheros file system) de tu máquina, es decir, cómo organiza las directorios (o carpetas, folders) y los archivos (o documentos, files).
+                La estructura es siempre arbórea: hay un directorio raíz (root directory) y, a partir de él, encontramos los descendientes (children).
+              <br>
+                <p>Ejemplo:</p>
+                Para navegar a través de tus directorios y ficheros, hay una serie de comandos necesarios:
+            <p> •	pwd - print working directory - indica en qué directorio te encuentras</p>
+            <p> •	ls - list - lista los directorios y archivos de tu ubicación</p>
+            <p> •	cd - change directory - se utiliza para cambiar de directorio</p>
+            <p> •	cd nombre_del_directorio - navega hacia un directorio descendiente</p>
+            <p> •	cd ../ - sube un directorio</p>
+            <p> •	cd ../../ - sube dos directorios</p> 
+            <p> •	cd / - va al directorio raíz de tu ordenador</p> 
+            <p> •	mkdir - make directory - crea un directorio</p> 
+            <p> •	touch - crea un nuevo file en el directorio donde te encuentras (acordaros de poner siempre la extensión)</p>
+            <br>
+                Veamos ahora la lista de comandos para manipular los ficheros (mover, cortar, borrar)
+            <p> •	ls -a - lista todos los ficheros, incluso los que están ocultos que empiezan por un .</p>
+            <p> •	ls -l - lista todos los ficheros de un directorio en un formato largo</p> 
+            <p> •	ls -t - ordena ficheros y directorios según su fecha de modificación</p> 
+            <p> •	ls -alt - lista todos los contenidos, incluso los ficheros ocultos y directorios, en formato largo, ordenados por la fecha de la última modificación.</p>
+            <p> •	cp - copy - copia directorios y archivos. En primer lugar se señala el nombre del archivo cuyo contenido se desea copiar y a continuación el documento donde se quiere pegar:</p> 
+            <p> •	cp fichero_origen.txt fichero_destino.txt</p>
+            <p> •	cp fichero_origen.txt directorio_destino/ copia un fichero en un directorio de destino.</p> 
+            <p> •	cp fichero_origen.txt fichero_destino.txt directorio/ cambia los dos ficheros a un directorio de destino. N.B. Si deseáramos copiar diferentes ficheros en un directorio, deberíamos indicar en primer lugar todos los ficheros y en último lugar el directorio o archivo de destino.</p>
+            <br>    
+            Pueden utilizarse expresiones regulares para señalar los archivos que queremos copiar:
+            <p>    •	cp *.txt - Este comando copiaría todos los ficheros que tuvieran formato .txt.</p>
+            <p>    •	cp t*.txt - Este copiaría sólo los ficheros que empezaran por la letra t.</p>
+            <p>    •	cp * Directorio_Destino - Copiaría todo el contenido del directorio donde nos encontramos y lo pegaría al directorio de destino.</p>
+            <br>    
+            Utilizaremos el mismo procedimiento para mover archivos:
+            <p>    •	mv fichero.txt Directorio_Destino - Moverá el fichero.txt al directorio de destino indicado.</p>
+            <p>    •	mv fichero.txt fichero.txt Directorio_Destino - Moverá los ficheros al directorio de destino indicado.</p>
+            <br>    
+            Pero atención, si lo que deseamos es cambiar el nombre a un archivo, lo debemos indicar también con el comando mv:
+            <p>   •	mv fichero_nombre_antiguo.txt fichero_nombre_moderno.txt - Renombra los ficheros.</p> 
+            <br>    
+            Finalmente, para eliminar archivos o ficheros, utilizamos rm:
+            <p>    •	rm fichero.txt - elimina un archivo</p>
+            <p>    •	rm -r directorio - elimina el directorio y todo lo que contiene.</p> 
+            <br>    
+            En fin, es también básico aprender a crear y editar ficheros a partir del terminal. Hay diferentes métodos, pero el más usual es el uso del editor nano o pico. Para crear un documento no tenemos más que escribir:
+            <p>   •	pico fichero.txt - Creará un nuevo documento y lo abrirá en el editor</p> 
+            <p>    •	Ctrl O - Guarda el fichero (como Output)</p>
+            <p>    •	Crt X - Sale del programa (eXit)</p>
+            <p>    •	Ctrl G - Abre el menú de ayuda</p>
+            <p>    •	Clear - limpia la pantalla</p>
+    </section>
+    <section id="videoexplicativo">
+        <h2>VIDEO EXPLICATIVO</h2>
+        <p></p>
+        <p></p>
+    </section>
+    <section id="instalargit">
+        <h2>INSTALAR GIT</h2>
+                 <p>Para empezar, entra a la página de Git, darle click al botón de Downloads for Windows.</p>
+                 <img src="./img/img1.jpg" alt="">
+               <p> Página principal de Git
+                Una vez descargada, dale click al archivo con el formato Git-version.exe. Al inicio preguntará por permisos para ejecutar el instalador, a lo cual debemos responder que sí.</p>
+                <img src="./img/img2.jpg" alt=""> 
+                 <br>
+               <p> Pantalla inicial del instalador
+                Como muchos de los instaladores en Windows, debemos de aceptar las opciones por defecto y darle Next (siguiente) a todo hasta que nos salga el botón de instalar.</p>
+                 <img src="./img/img3.jpg" alt="">
+                 <br>
+              <p> Ruta donde se instalará Git</p> 
+                 <img src="./img/img4.jpg" alt="">
+                 <br>
+               <p> Configuración de componentes que vienen disponibles con Git</p>
+                 <img src="./img/img5.jpg" alt="">
+                 <br>
+              <p>  Nombre con el cual se puede buscar desde la lista de programas</p>
+                 <img src="./img/img6.jpg" alt="">
+                 <br>
+               <p>Terminales desde la cual se puede ejecutar Git (Git Bash y Command Prompt)</p> 
+                 <img src="./img/img7.jpg" alt="">
+                 <br>
+               <p> Configuración del formato para los finales de línea de los archivos.</p>
+                 <img src="./img/img8.jpg" alt="">
+                 <br>
+               <p> Tipo de emulador que usará Git Bash</p>
+                 <img src="./img/img9.jpg" alt="">
+                 <br>
+               <p> Opciones extra de Git</p>
+                 <img src="./img/img10.jpg" alt="">
+                 <br>
+               <p> Nuevas herramientas de Git
+                Una vez terminada la configuración del instalador de Git, comenzará a instalar todos los archivos necesarios en la carpeta indicada al inicio.</p>
+                 <img src="./img/img11.jpg" alt="">
+                 
+               <p>Instalación de Git
+                Al finalizar la instalación, nos dará la opción de abrir Git Bash para finalizar.</p> 
+                 <img src="./img/img12.jpg" alt="">
+                 
+              <p> Fin de la instalación</p> 
+                
+    </section>
+
+</body>
+</html>
